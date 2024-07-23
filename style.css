@@ -29,9 +29,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
-    
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    position: sticky;
+    top: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
