@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    
+    text-align: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+#show {
+    position: fixed;
+    top: 340px;
+    bottom: 0px;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.banner{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+.title-banner{
+    
+    text-align: center;
+    font-size: 3.5em;
+    color: #FF0000;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 150px;
+    
+}
+
+.tabs {
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    width: auto;
+    height: 80px;
+}
+
+.tab {
+    
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.tabs a{
+    margin: 10px;
+    background-color: rgb(15, 201, 15);
+}
+
+.tabs a:hover{
+    transition: 1s;
+    background-color: blueviolet;
+}
+
+
+.tabs a:checked{
+    background-color: blueviolet;
+}
+.post-container{
+    margin-top: 3%;
+    margin-left: 6%;
+    display: inline-flex;
+    
+}
+
+.post-container2{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.post-thumb {
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: gainsboro;
+    padding: 50px;
+    width: 200px;
+    height: 1200px;
+    
+}
+.post-thumb img{
+    border: 1px;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 15%;
+}
+.content-Technology-trends{
+    margin-top: 4%;
+    margin-right: 8%;
+    text-align: justify;
+    
+}
+
+.content-Iot{
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.post-container-Iot{
+    
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+
+.thumb-title img{
+    width: 200px;
+    height: 200px;
+}
+
+.post-thumb-Iot img{
+    margin-top: 10%;
+    width: 280px;
+    height: 190px;
+    margin-bottom: 2%;
+}
+.black-thumb{
+    background-color: black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 6%;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+.black-thumb-img img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 150px;
+}
+.h1tmb{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-right: 350px;
+    margin-left: 120px;
+    font-style: oblique;
+}
+.h2tmb{
+    font-size: 1.2em;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.ptmb {
+    margin-left: 200px;
+}
+
+.link-li {
+    margin-left: 2%;
+    
+    
+}
+
+.link-li a{
+    text-decoration: none;
+    counter-increment: item;
+}
+
+.link-li p{
+    color: blue;
+    text-decoration: underline;
+}
+
+.link-li p::before{
+    content: counter(item) ". ";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+.link-li li{
+    counter-increment: item;
+    margin-bottom: 10px;
+}
+.link-li li::before {
+    content: counter(item) ". ";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.content2 {
+    display: grid;
+    
+}
+.contentsec {
+    display: flex;
+    padding: 10px;
+    
+}
+.sec-thumb img{
+    width: 450px;
+    height: 200px;
+    float: right;
+}
+
+.sec-thumb1 img{
+    width: 200px;
+    height: 150px;
+    border: 5px;
+    border-radius: 5px;
+}
+.p3 {
+    padding: 40px;
+}
+
+.imgsec3 img{
+    width: 200px;
+    height: 150px;
+    border: 5px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+.imgsec4 img{
+    width: 200px;
+    height: 150px;
+    border: 5px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+}
