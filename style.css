@@ -10,35 +10,34 @@ body {
     padding: 20px;
     text-align: center;
     
-    
-    
 }
 
 #show {
     position: fixed;
-    top: 340px;
+    top: 420px;
     bottom: 0px;
     width: 100%;
-    overflow: auto;
-    
+    overflow-y: scroll;
 }
 
 .banner{
     width: 100%;
     max-width: 700px;
-    height: auto;
+    height: 300px;
+    overflow: hidden;
 }
 
 .banner-content{
     display: flex;
     align-items: center;
+    overflow: hidden;
     
 }
-
-.navbar {
+.navbartabs {
     display: flex;
     background-color: #333;
     position: sticky;
+    
     top: 0;
 }
 
@@ -246,9 +245,4 @@ body {
     border: 5px;
     border-radius: 5px;
 }
-@media screen and (max-width: 700px) {
-    .title {
-        font-size: 28px;
-        margin: 15px 0;
-    }
-}
+
